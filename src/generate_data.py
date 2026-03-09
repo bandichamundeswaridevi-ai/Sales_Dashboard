@@ -32,7 +32,7 @@ def generate_sales_data(n_records=500, seed=42):
 
     os.makedirs('../data', exist_ok=True)
     df.to_csv('../data/sales_data.csv', index=False)
-    print(f"✅ Sales data saved — {len(df)} records")
+    print(f"Sales data saved — {len(df)} records")
     return df
 
 
